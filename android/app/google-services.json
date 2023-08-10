@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "70803172402",
+    "project_id": "zaad-media",
+    "storage_bucket": "zaad-media.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70803172402:android:83489064e7587f4b48202b",
+        "android_client_info": {
+          "package_name": "com.example.zaad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70803172402-lgcpg235bi1krf35b71p4nph3cir4saj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw20I53TdAzfR4UlbEwNhQadzTad_tnm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70803172402-lgcpg235bi1krf35b71p4nph3cir4saj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
