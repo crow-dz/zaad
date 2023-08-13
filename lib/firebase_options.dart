@@ -63,7 +63,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '70803172402',
     projectId: 'zaad-media',
     storageBucket: 'zaad-media.appspot.com',
-    iosClientId: '70803172402-hpf4v5hbjpq3ctajlalid5b796stacec.apps.googleusercontent.com',
+    iosClientId:
+        '70803172402-hpf4v5hbjpq3ctajlalid5b796stacec.apps.googleusercontent.com',
     iosBundleId: 'com.example.zaad',
   );
 }
