@@ -1,5 +1,8 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:zaad/state/auth/backend/authenticator.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {
@@ -34,6 +37,18 @@ class HomePage extends StatelessWidget {
         title: const Text(
           "ZaaD",
         ),
+      ),
+      body: Column(
+        children: [
+          TextButton(
+              onPressed: () async {
+                final result = await Authenticator().loginWithGoogle();
+                log(result.toString());
+              },
+              child: const Text("Sign In With Google")),
+          TextButton(
+              onPressed: () {}, child: const Text("Sign In With Facebook")),
+        ],
       ),
     );
   }
