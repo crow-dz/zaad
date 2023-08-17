@@ -5,7 +5,9 @@ import 'package:zaad/state/auth/constants/constants.dart';
 import 'package:zaad/state/auth/models/auth_result.dart';
 import 'package:zaad/state/posts/typedefs/user_id.dart';
 
+// This File Handel *** THE EXECUTE ***  Just Function Call Functions
 class Authenticator {
+  const Authenticator();
   UserId? get userId => FirebaseAuth.instance.currentUser?.uid;
   bool get isAlreadyLoggedIn => userId != null;
   String get displayName =>
